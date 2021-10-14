@@ -1,0 +1,32 @@
+.heroimg{
+    background-image: url(../../Assests/Images/hero-img.png);
+    background-size: 100% 100%;
+    height: 100vh;
+    width: 65%;
+    left: 40px;
+}
+.innerimg{
+    width: 81%;
+    height: 50%;
+    position: relative;
+    top:12% ;
+    left: 8.75%;
+}
+
+@media screen and (max-width:1024px) {
+    .heroimg{
+        width: 100%;
+        height: 120vh;
+        left: 0px;
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .heroimg{
+        width: 100%;
+        height: 80vh;
+        left: 0px;
+        margin-top: 2rem;
+    }
+}

@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "product-sans";
+  src: url(./Assests/Fonts/ProductSans-Regular.ttf);
+}
+/* * {
+      font-family: 'product-sans';
+  } */
+
+.main {
+  background: #2d2d2f;
+}
+.border-gradient {
+  border-radius:5px; 
+  border:2px solid transparent; 
+
+}
+.image_circle{
+  width: 54%;
+}
+.border-gradient:hover {
+  border-image: linear-gradient(to bottom right, blue, purple) 10; 
+  -webkit-mask:
+     linear-gradient(to bottom right, blue, purple), 
+     linear-gradient(to bottom right, blue, purple);
+}
+
+.gradient-color {
+  background: linear-gradient(to right, rgb(53, 53, 190), rgb(209, 71, 209));
+}
+.img {
+  height: 175%;
+}
+.bg_card {
+  background-color: #343336;
+}
+.circle1{
+  top: 7%;
+  width: 40%;
+}
+a{
+  cursor: pointer;
+}
+tb:hover{
+  background-color: #fff !important;
+  color: black !important;
+}
